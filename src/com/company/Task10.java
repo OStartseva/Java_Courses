@@ -19,7 +19,7 @@ public class Task10 {
         System.out.println("Значения из первой строки матрицы: ");
         for (int i = 0; i < col; i ++){
             int result = matrix[0][i];
-            System.out.println(result);
+            System.out.println(result * 3);
         }
     }
 }
